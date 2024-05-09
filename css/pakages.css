@@ -1,0 +1,160 @@
+body{
+    background: rgba(241, 239, 239, 0.6);
+}
+
+.navBar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.slide{
+    
+    
+    height: 600px;   
+}
+
+.slide img{
+    width: 100%;
+    height: 590px;
+    object-fit: cover;
+}
+
+.about {
+    padding: 15px;
+    margin-top: 50px;
+    margin-left: 60px;
+    margin-right: 60px;
+    background-color: aqua;
+    border-radius: 20px;
+    box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+
+.about h2{
+    text-align: center;
+}
+
+.booking{
+    margin-top: 30px;
+    margin-left: 300px;
+    margin-right: 300px;
+    justify-items: center;
+}
+
+.booking-box{
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 20px;
+    box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+
+.box-item{
+    margin-left: 20px;
+    
+}
+
+.box-details{
+    margin-left: 100px;
+}
+
+.new2{
+    margin-bottom: 4px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 6px;
+    background-color: greenyellow;
+    border-radius: 5px;
+    
+}
+
+.box-details ul{
+    text-align: justify;
+}
+
+.box-item img{
+   float: left;
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+}
+
+
+#footer{
+    background-color: rgba(241, 239, 239, 0.6);
+    border: 1px solid black;
+    border-radius: 20px;
+    /* padding: 5% 15%; */
+    text-align: center;
+  
+  }
+  .f-icon{
+    padding-left: 3%;
+    padding-bottom: 3%;
+  }
+
+  .contact{
+
+    display: flex;
+    justify-content: space-around;
+      padding: 15px;
+      text-align: justify;
+     width: 100%;
+  }
+  .contact-item{
+      margin: 15px;
+  }
+
+  @media (max-width: 1028px) {
+    #title{
+      text-align: center;
+    }
+    .booking{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .booking-box{
+        padding: 10px;
+        margin-bottom: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        background-color: rgba(255, 255, 255, 0.6);
+        border-radius: 20px;
+        box-shadow: 0 1px 5px rgb(138, 137, 137);
+    }
+
+    .box-item{
+        margin-left: 0px;
+    }
+    
+    .box-details{
+        margin-left: 0px;
+    }
+    .box-item img{
+        margin-top: 0;
+        margin-bottom: 0;
+        width: 250px;
+        height: 250px;
+        object-fit: contain;
+    }
+    
+    .about {
+        padding: 15px;
+        margin-top: 50px;
+        margin-bottom: 40px;
+        margin-left: 20px;
+        margin-right: 20px;
+        background-color: aqua;
+    }
+     .contact{
+         display: block;
+         text-align: center;
+     }
+  
+  }
+  

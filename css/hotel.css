@@ -1,0 +1,109 @@
+.navBar {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.slide{
+    
+    
+    height: 600px;   
+}
+
+.slide img{
+    width: 100%;
+    height: 590px;
+    object-fit: cover;
+}
+
+.about {
+    padding: 15px;
+    margin-top: 50px;
+    margin-left: 60px;
+    margin-right: 60px;
+    
+    border-radius: 20px;
+    box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+
+.about h2{
+    text-align: center;
+}
+
+.booking{
+    margin: 60px;
+}
+
+.booking-box{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(241, 239, 239, 0.6);
+    border-radius: 20px;
+    box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+.box-details ul{
+    text-align: justify;
+}
+
+.box-item img{
+   
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+}
+
+
+#footer{
+    background-color: rgba(241, 239, 239, 0.6);
+    border: 1px solid black;
+    border-radius: 20px;
+    /* padding: 5% 15%; */
+    text-align: center;
+  
+  }
+  .f-icon{
+    padding-left: 3%;
+    padding-bottom: 3%;
+  }
+
+  .contact{
+
+    display: flex;
+    justify-content: space-around;
+      padding: 15px;
+      text-align: justify;
+     width: 100%;
+  }
+  .contact-item{
+      margin: 15px;
+  }
+
+  @media (max-width: 1028px) {
+    #title{
+      text-align: center;
+    }
+    .booking{
+        margin: 20px;
+        border: 1px solid black;
+    }
+    
+    .about {
+        padding: 15px;
+        margin-top: 50px;
+        margin-bottom: 40px;
+        margin-left: 20px;
+        margin-right: 20px;
+      
+    }
+     .contact{
+         display: block;
+         text-align: center;
+     }
+  
+  }
+  

@@ -1,0 +1,128 @@
+body{
+  background: rgba(241, 239, 239, 0.6);
+}
+.navBar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.brandName{
+  width: 20px;
+  height:20px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.slide{ 
+    height: 460px;
+    font-family: 'lora',serif;
+   
+}
+
+.slide img{
+    width: 100%;
+    height: 460px;
+    object-fit: cover;
+}
+
+.article{
+  margin-top: 60px;
+  margin-right: 60px;
+   margin-left: 60px;
+   padding: 10px;
+   color: #666;
+    font-size: 18px;
+    line-height: 1.8;
+  font-family: 'lora',serif;
+  
+}
+
+.article h2{
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.articleP::first-letter{
+  margin-left: 20px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.feature {
+    margin-right: 60px;
+   margin-left: 60px;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-around;
+text-align: center;
+font-family: 'lora',serif;
+}
+
+.feature-box{
+  margin-bottom: 30px;
+  width: 350px;
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.849);
+  border: 1px solid black;
+  border-radius: 20px;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+
+.feature-box img{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+}
+
+
+
+#footer{
+  font-family: 'lora',serif;
+    background-color: rgba(241, 239, 239, 0.6);
+    border: 1px solid black;
+    border-radius: 20px;
+    /* padding: 5% 15%; */
+    text-align: center;
+  
+  }
+  .f-icon{
+    padding-left: 3%;
+    padding-bottom: 3%;
+  }
+
+  .contact{
+
+    display: flex;
+    justify-content: space-around;
+      padding: 15px;
+      text-align: justify;
+     width: 100%;
+  }
+  .contact-item{
+      margin: 15px;
+  }
+
+  @media (max-width: 1028px) {
+    #title{
+      text-align: center;
+    }
+    .slide{ 
+      height: 330px; 
+     
+  }
+  
+  .slide img{
+    width: 100%;
+    height: 320px;
+      object-fit: cover;
+  }
+     .contact{
+         display: block;
+         text-align: center;
+     }
+  
+  }
+  
